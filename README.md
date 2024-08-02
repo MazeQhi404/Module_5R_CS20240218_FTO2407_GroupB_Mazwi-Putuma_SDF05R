@@ -1,40 +1,33 @@
-# [SDF05] CSS Magic Buttons
+## Project Outline
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+For this project I had to design three unique buttons animations using CSS transitions and animations.
 
-## Learning Goals
+## Design Choices:
 
-By completing this project, you will learn to:
+Button 1:
 
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
+For the first button I decided to label it 'Read More' and design it with a book theme, where the button looks like a book itself. I animated the button to reflect the motion of a book being taken off a shelf, sliding it to the side and adding a slight tilt. I have made the animation continous so that it attracts the user's attention, but subtle enough that it is not so overwhelming.
 
-![alt text](./images/image.png)
+Button 2:
 
-## Project Overview
+The second button is labelled 'Listen' to show that it connects to audio media. When it is hovered over it has a background image of a pulsing speaker and the button pulses as well to reflect the vibration of sound. 
 
-### Time Estimate: 2 hours
+Button 3:
 
-## What you Need to Do:
+ The last button has a background of moving shopping bags in the background with the label 'Purchase' in front. I chose a simpler animation for this design where when the button is hovered over it grows slowly in size as if the the moving shopping bags are being given to the user, reflecting a towards motion.
 
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
+ Common Designs:
 
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
+ Each button has a moving image in theme with its use, and each grow in size when hovered over. I kept the background colors of the last two buttons, when their not engaged with, a monochromatic beige color with no animaton so that when the user does interact with the buttons, the animations are an inviting suprise to draw their attention.
 
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
+ ## Challenges:
 
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
+ The challenges faced with this project was mainly animating the buttons in a way that reflected the motions I was trying to create: sliding book off a shelf, pulsing speaker, bags being brought towards user. Getting the exact angles the book needed to rotate and distance it had to slide, the rhythm of the pulse for the speaker in terms of speed and how broad it expands. The purchase button was not too difficult to figure out.
 
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
+ ## Features I am proud of:
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+ The feature I am most proud of is the pulse of the speaker button. It was the second hardest animation to figure out but it came out nicely and is my favourite animation.
 
 
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+
