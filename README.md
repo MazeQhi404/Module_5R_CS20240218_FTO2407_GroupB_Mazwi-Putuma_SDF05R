@@ -1,6 +1,6 @@
 ## Project Outline
 
-For this project I had to design three unique buttons animations using CSS transitions and animations.
+For this project I had to design three unique buttons using CSS transitions and animations to make them interactive and engaging.
 
 ## Design Choices:
 
@@ -26,8 +26,7 @@ Button 3:
 
  ## Features I am proud of:
 
- The feature I am most proud of is the pulse of the speaker button. It was the second hardest animation to figure out but it came out nicely and is my favourite animation.
-
+ The feature I am most proud of is the pulse of the speaker button. 
 
 
 
