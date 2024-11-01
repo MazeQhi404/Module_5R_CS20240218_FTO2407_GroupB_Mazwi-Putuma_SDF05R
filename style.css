@@ -32,7 +32,6 @@ h1 {
     font-family: 'Times New Roman' , serif;
     font-size: medium;
     font-weight: 1000;
-    background-color: beige;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -42,14 +41,15 @@ h1 {
         10px 10px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+    margin-bottom: 70px;
 
 }
 
-.btn-1 {
+/* .btn-1 {
     background-image: url(images/F315DA82-A581-40FB-AC82-C359D41441BE_4_5005_c.jpeg);
     animation: tilt 2.5s ease-in-out 0s infinite ;
 }
-
+*/
 
 .btn-2 {
     background-image: url(images/png-clipart-tribulation-vinyl-record-phonograph-record-lp-record-album-vinyl-miscellaneous-album-thumbnail.png);
@@ -93,19 +93,30 @@ h1 {
     background-color: #000;
     padding: 3px;
  }
-/*.btn-3:hover {
-    background-image: url(images/giphy.gif);
-    background-size: 150px;
+
+ .btn-3 {
+    background-image: url(images/illustration-of-credit-card-vector.jpg);
+    background-position: center;
+    background-size: 190px;
+    width: 150px;
+    height: 90px;
+ }
+.btn-3:hover {
+    background-image: url(images/illustration-of-credit-card-vector.jpg);
+    background-size: 190px;
     background-repeat: no-repeat;
     width: 150px;
-    height:150px;
-    animation: forward 2s ease-out 0s infinite;
+    height: 90px;
+    animation: swipe 2s ease-in  ;
 }
 
-@keyframes forward {
-    from{transform: scale(1);}
-    to{transform: scale(1.2);}
+ @keyframes swipe {
+    25% { transform: translateX(-100px);
+    }
+    75% { transform: rotateZ(-10deg);}
+    100% { transform: translateY(-10px);}
+
 }
-*/
+   
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
