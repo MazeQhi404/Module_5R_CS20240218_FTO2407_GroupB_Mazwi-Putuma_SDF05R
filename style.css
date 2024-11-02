@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/Unknown.jpeg);
+    background-image: url(images/Unknown-2.jpeg);
 }
 
 a {
@@ -17,12 +17,24 @@ a {
 h1 {
     position: relative;
     text-align: center;
-    color: rgb(153, 32, 125);
+    color: rgb(186, 130, 58);
     font-size: 35px;
     font-family: "Calibri", sans-serif;
     padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: aliceblue;
+    
 }
 
+img {
+    border-radius: 100%;
+    width: 100px;
+    animation: roll 4s infinite linear ;
+}
+
+@keyframes roll {
+    100% {transform: rotate(360deg)}
+}
 .custom-btn {
     width: 150px;
     height: 150px;
@@ -45,32 +57,47 @@ h1 {
 
 }
 
-/* .btn-1 {
-    background-image: url(images/F315DA82-A581-40FB-AC82-C359D41441BE_4_5005_c.jpeg);
-    animation: tilt 2.5s ease-in-out 0s infinite ;
+.btn-1 {
+    background-image: url(images/istockphoto-114242337-612x612.jpg);
+    background-size: 200px;
+    background-position: center;
+    border-radius: 50px;
+    border: #000 solid;
+    text-transform: uppercase;
+    color: antiquewhite;
 }
-*/
+
+.btn-1:hover{
+    background-image: url(images/istockphoto-114242337-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 150px;
+    height:145px;
+    animation: ring 0.1s ease-out 0s 12 backwards ;
+}
+
+@keyframes ring {
+    from { transform: rotateZ(2deg);}
+    to { transform: rotateZ(-2deg);}
+    
+}
+
+.text-1 {
+    background-color:black;
+}
+
 
 .btn-2 {
     background-image: url(images/png-clipart-tribulation-vinyl-record-phonograph-record-lp-record-album-vinyl-miscellaneous-album-thumbnail.png);
     background-position: center;
     background-size: 190px;
-    border-radius: 100%;
+    border-radius: 130%;
     color: rgb(203, 99, 195);
     text-transform: uppercase;
+    border: #000 solid;
 }
 
-/* .btn-1:hover{
-    background-image: url(images/Book\ Study\ Sticker\ by\ ashrafomar__\ -\ Find\ &\ Share\ on\ GIPHY.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    color: black;
-    width: 200px;
-    height:200px;
-    animation: tilt 1s ease-in-out 0s 1 alternate-reverse;
-}
-*/
 
 .btn-2:hover {
     background-image:url(images/png-clipart-tribulation-vinyl-record-phonograph-record-lp-record-album-vinyl-miscellaneous-album-thumbnail.png);
@@ -95,28 +122,34 @@ h1 {
  }
 
  .btn-3 {
-    background-image: url(images/illustration-of-credit-card-vector.jpg);
+    background-image: url(images/41Qdax2KluL._AC_SY1000_.jpg);
     background-position: center;
     background-size: 190px;
     width: 150px;
     height: 90px;
+    text-transform: uppercase;
+    border: #000 solid;
  }
 .btn-3:hover {
-    background-image: url(images/illustration-of-credit-card-vector.jpg);
+    background-image: url(images/41Qdax2KluL._AC_SY1000_.jpg);
     background-size: 190px;
     background-repeat: no-repeat;
     width: 150px;
     height: 90px;
-    animation: swipe 2s ease-in  ;
+    animation: skip 1s ease-in 3;
 }
 
- @keyframes swipe {
-    25% { transform: translateX(-100px);
+ @keyframes skip {
+100% { transform: translateY(-20px);
     }
-    75% { transform: rotateZ(-10deg);}
-    100% { transform: translateY(-10px);}
 
 }
+
+.text-3 {
+    background-color: antiquewhite;
+    padding-top: 5px;
+}
+
    
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
