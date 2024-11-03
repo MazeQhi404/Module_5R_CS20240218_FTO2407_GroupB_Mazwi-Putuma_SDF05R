@@ -136,11 +136,11 @@ img {
     background-repeat: no-repeat;
     width: 150px;
     height: 90px;
-    animation: skip 0.2s ease-out 3;
+    animation: skip 0.7s ease-out 3;
 }
 
  @keyframes skip {
-100% { transform: translateY(20px);
+100% { transform: translateY(-20px);
     }
 
 }
